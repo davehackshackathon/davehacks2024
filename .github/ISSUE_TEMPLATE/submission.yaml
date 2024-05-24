@@ -6,13 +6,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for participating in the hackathon and creating your submission!
+        Thanks for participating in davehacks 2024 and creating your submission!
   - type: input
     id: name
     attributes:
       label: Name
       description: Enter your full name
-      placeholder: Aditya Oberai
+      placeholder: Isaac Lehmann
     validations:
       required: true
   - type: input
@@ -53,18 +53,6 @@ body:
       label: Tech Stack
       description: How have you built this project? Mention the technologies/methods/platforms you used to build your project
       placeholder: The technologies I used...
-    validations:
-      required: true
-  - type: dropdown
-    id: track
-    attributes:
-      label: Hackathon Track
-      description: What hackathon track are you opting in?
-      options:
-        - Track 1
-        - Track 2
-        - Track 3
-        - Track 4
     validations:
       required: true
   - type: input
